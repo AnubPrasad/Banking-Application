@@ -1,0 +1,16 @@
+/Users/prasad/Desktop/Angular/BankingBackend/Backend.Repository/bin/Debug/net8.0/Backend.Repository.deps.json
+/Users/prasad/Desktop/Angular/BankingBackend/Backend.Repository/bin/Debug/net8.0/Backend.Repository.dll
+/Users/prasad/Desktop/Angular/BankingBackend/Backend.Repository/bin/Debug/net8.0/Backend.Repository.pdb
+/Users/prasad/Desktop/Angular/BankingBackend/Backend.Repository/bin/Debug/net8.0/Backend.DAL.dll
+/Users/prasad/Desktop/Angular/BankingBackend/Backend.Repository/bin/Debug/net8.0/Backend.DAL.pdb
+/Users/prasad/Desktop/Angular/BankingBackend/Backend.Repository/obj/Debug/net8.0/Backend.Repository.csproj.AssemblyReference.cache
+/Users/prasad/Desktop/Angular/BankingBackend/Backend.Repository/obj/Debug/net8.0/Backend.Repository.GeneratedMSBuildEditorConfig.editorconfig
+/Users/prasad/Desktop/Angular/BankingBackend/Backend.Repository/obj/Debug/net8.0/Backend.Repository.AssemblyInfoInputs.cache
+/Users/prasad/Desktop/Angular/BankingBackend/Backend.Repository/obj/Debug/net8.0/Backend.Repository.AssemblyInfo.cs
+/Users/prasad/Desktop/Angular/BankingBackend/Backend.Repository/obj/Debug/net8.0/Backend.Repository.csproj.CoreCompileInputs.cache
+/Users/prasad/Desktop/Angular/BankingBackend/Backend.Repository/obj/Debug/net8.0/Backend..6A708F58.Up2Date
+/Users/prasad/Desktop/Angular/BankingBackend/Backend.Repository/obj/Debug/net8.0/Backend.Repository.dll
+/Users/prasad/Desktop/Angular/BankingBackend/Backend.Repository/obj/Debug/net8.0/refint/Backend.Repository.dll
+/Users/prasad/Desktop/Angular/BankingBackend/Backend.Repository/obj/Debug/net8.0/Backend.Repository.pdb
+/Users/prasad/Desktop/Angular/BankingBackend/Backend.Repository/obj/Debug/net8.0/ref/Backend.Repository.dll
+/Users/prasad/Desktop/Angular/BankingBackend/Backend.Repository/obj/Debug/net8.0/Backend.Repository.sourcelink.json
