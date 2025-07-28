@@ -1,0 +1,95 @@
+<div class="signup-container">
+  <h2>Create Your Bank Account</h2>
+  <form [formGroup]="signupForm" (ngSubmit)="onSubmit()" class="signup-form">
+    <div class="form-group">
+      <label for="name">Full Name</label>
+      <input 
+        type="text" 
+        id="name" 
+        formControlName="name" 
+        placeholder="Enter your full name"
+        class="form-input"
+        [ngClass]="{'invalid': signupForm.get('name')?.invalid && signupForm.get('name')?.touched}">
+      <div *ngIf="signupForm.get('name')?.invalid && signupForm.get('name')?.touched" 
+           class="error-message">
+        Name is required
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input 
+        type="email" 
+        id="email" 
+        formControlName="email" 
+        placeholder="Enter email"
+        class="form-input"
+        [ngClass]="{'invalid': signupForm.get('email')?.invalid && signupForm.get('email')?.touched}">
+      <div *ngIf="signupForm.get('email')?.invalid && signupForm.get('email')?.touched" 
+           class="error-message">
+        Please enter a valid email
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="phone">Phone Number</label>
+      <input 
+        type="tel" 
+        id="phone" 
+        formControlName="phone" 
+        placeholder="Enter phone number"
+        class="form-input"
+        [ngClass]="{'invalid': signupForm.get('phone')?.invalid && signupForm.get('phone')?.touched}">
+      <div *ngIf="signupForm.get('phone')?.invalid && signupForm.get('phone')?.touched" 
+           class="error-message">
+        Please enter a valid phone number
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="role">Account Type</label>
+      <select 
+        id="role" 
+        formControlName="role"
+        class="form-input"
+        [ngClass]="{'invalid': signupForm.get('role')?.invalid && signupForm.get('role')?.touched}">
+        <option value="">Select account type</option>
+        <option value="User">Regular User</option>
+        <option value="Admin">Administrator</option>
+      </select>
+      <div *ngIf="signupForm.get('role')?.invalid && signupForm.get('role')?.touched" 
+           class="error-message">
+        Please select an account type
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input 
+        type="password" 
+        id="password" 
+        formControlName="password" 
+        placeholder="Enter password"
+        class="form-input"
+        [ngClass]="{'invalid': signupForm.get('password')?.invalid && signupForm.get('password')?.touched}">
+      <div *ngIf="signupForm.get('password')?.invalid && signupForm.get('password')?.touched" 
+           class="error-message">
+        Password must be at least 6 characters
+      </div>
+    </div>
+
+    <div *ngIf="errorMessage" class="error-message form-error">
+      {{ errorMessage }}
+    </div>
+
+    <div *ngIf="successMessage" class="success-message">
+      {{ successMessage }}
+    </div>
+
+    <button type="submit" class="submit-button" [disabled]="!signupForm.valid">
+      Sign Up
+    </button>
+  </form>
+
+  <p class="login-link">Already have an account? <a routerLink="/login">Log in</a></p>
+</div>

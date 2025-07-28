@@ -1,0 +1,46 @@
+<div class="container">
+  <h2>Pending Requests</h2>
+
+  <div class="button-group">
+    <button (click)="showSaving()">Saving Account</button>
+    <button (click)="showLoan()">Loan Account</button>
+  </div>
+
+  <!-- Loan Account Requests -->
+  <div *ngIf="showLoanRequests">
+    <h3>Pending Loan Requests</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Customer Name</th>
+          <th>Amount</th>
+          <th>Duration</th>
+          <th>Interest Rate</th>
+          <th>From Date</th>
+          <th>Status</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let request of loanRequests; let i = index">
+          <td>{{ request.customerName }}</td>
+          <td>{{ request.amount }}</td>
+          <td>{{ request.duration }}</td>
+          <td>{{ request.interestRate }}</td>
+          <td>{{ request.fromDate }}</td>
+          <td>{{ request.status }}</td>
+          <td>
+            <button (click)="handleApprove(i)" [disabled]="request.status !== 'Pending'">Approve</button>
+            <button (click)="handleReject(i)" [disabled]="request.status !== 'Pending'">Reject</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Saving Account Requests Placeholder -->
+  <div *ngIf="showSavingRequests">
+    <h3>Pending Saving Account Requests</h3>
+    <p>No pending saving account requests yet.</p>
+  </div>
+</div>

@@ -1,0 +1,53 @@
+<div class="page-container">
+  <h1>View Account Balance</h1>
+  
+  <div class="search-container">
+    <form [formGroup]="searchForm" (ngSubmit)="onSearch()">
+      <div class="search-bar">
+        <input 
+          type="text" 
+          formControlName="accountNumber" 
+          placeholder="Enter Account Number"
+        >
+        <button type="submit" [disabled]="!searchForm.valid">
+          <span *ngIf="!isLoading">Search</span>
+          <span *ngIf="isLoading">Searching...</span>
+        </button>
+      </div>
+    </form>
+
+    <div *ngIf="errorMessage" class="error-message">
+      {{ errorMessage }}
+    </div>
+
+    <div *ngIf="accountBalance" class="balance-container">
+      <div class="balance-card">
+        <div class="balance-header">
+          <h3>Account Balance</h3>
+          <span [class]="getStatusClass(accountBalance.status)">
+            {{ accountBalance.status | titlecase }}
+          </span>
+        </div>
+        
+        <div class="balance-details">
+          <div class="detail-row">
+            <span class="detail-label">Account Number:</span>
+            <span>{{ accountBalance.accountNumber }}</span>
+          </div>
+          <div class="detail-row">
+            <span class="detail-label">Account Holder:</span>
+            <span>{{ accountBalance.accountHolder }}</span>
+          </div>
+          <div class="detail-row">
+            <span class="detail-label">Last Updated:</span>
+            <span>{{ formatDate(accountBalance.lastUpdated) }}</span>
+          </div>
+        </div>
+
+        <div class="balance-amount">
+          {{ accountBalance.balance | currency:'USD':'symbol':'1.2-2' }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

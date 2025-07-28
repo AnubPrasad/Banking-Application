@@ -1,0 +1,56 @@
+<!-- <div class="login-container">
+  <h2>Banking System Login</h2>
+  <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+   
+    <div class="form-group">
+  <label for="email">Email</label>
+  <input type="email" id="email" formControlName="email" required>
+</div>
+    
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input type="password" id="password" formControlName="password" required>
+    </div>
+    
+    <div *ngIf="errorMessage" class="error-message">
+      {{ errorMessage }}
+    </div>
+    
+    <button type="submit" [disabled]="!loginForm.valid">Login</button>
+  </form>
+  
+  <p>Don't have an account? <a (click)="navigateToSignup()" style="cursor: pointer; color: blue;">Sign up</a></p>
+</div> -->
+
+
+
+
+<div class="login-container">
+  <h2>Banking System Login</h2>
+  <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" formControlName="email" required>
+    </div>
+    
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input [type]="showPassword ? 'text' : 'password'" id="password" formControlName="password" required>
+    </div>
+    
+    <div class="show-password-checkbox">
+      <input type="checkbox" id="showPasswordCheckbox" [(ngModel)]="showPassword" [ngModelOptions]="{standalone: true}">
+      <label for="showPasswordCheckbox">Show Password</label>
+    </div>
+    
+    <div *ngIf="errorMessage" class="error-message">
+      {{ errorMessage }}
+    </div>
+    
+    <button type="submit" [disabled]="!loginForm.valid">Login</button>
+    
+    <div class="forgot-password">
+      <a (click)="navigateToForgotPassword()">Forgot Password?</a>
+    </div>
+  </form>
+</div>

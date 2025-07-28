@@ -1,0 +1,20 @@
+<div class="container">
+  <h2>Account Details</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th><th>Email</th><th>Phone</th><th>Address</th><th>Status</th><th>Date of Joining</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let customer of accounts">
+        <td>{{ customer.name }}</td>
+        <td>{{ customer.email }}</td>
+        <td>{{ customer.phone }}</td>
+        <td>{{ customer.address }}</td>
+        <td>{{ customer.status }}</td>
+        <td>{{ customer.dateOfJoining }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

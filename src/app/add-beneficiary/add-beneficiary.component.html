@@ -1,0 +1,33 @@
+<div class="container">
+  <h2>Manage Beneficiary</h2>
+
+  <div class="button-group">
+    <button (click)="onAddClick()">Add Beneficiary</button>
+    <button (click)="onShowClick()">Show Beneficiary</button>
+  </div>
+
+  <!-- Add Beneficiary Form -->
+  <div *ngIf="showAdd" class="form-section">
+    <h3>Add Beneficiary</h3>
+    <label>Beneficiary Account Number:</label>
+    <input type="text" [(ngModel)]="beneficiary.accountNumber" />
+
+    <label>Customer ID:</label>
+    <input type="text" [(ngModel)]="beneficiary.customerId" />
+
+    <button (click)="submitBeneficiary()">Submit</button>
+
+    <p class="success" *ngIf="successMessage">{{ successMessage }}</p>
+    <p class="error" *ngIf="errorMessage">{{ errorMessage }}</p>
+  </div>
+
+  <!-- Show Beneficiary -->
+  <div *ngIf="showDetails && verifiedBeneficiary" class="details-section">
+    <h3>Beneficiary Details</h3>
+    <p><strong>Status:</strong> {{ verifiedBeneficiary.status }}</p>
+    <p><strong>Account Number:</strong> {{ verifiedBeneficiary.accountNumber }}</p>
+    <p><strong>Customer Name:</strong> {{ verifiedBeneficiary.customerName }}</p>
+
+    <button (click)="transferToBeneficiary()">Transfer</button>
+  </div>
+</div>

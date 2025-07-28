@@ -1,0 +1,53 @@
+<div class="page-container">
+  <h1>Search Account</h1>
+  
+  <div class="search-container">
+    <form [formGroup]="searchForm" (ngSubmit)="onSearch()">
+      <div class="search-bar">
+        <input 
+          type="text" 
+          formControlName="accountNumber" 
+          placeholder="Enter Account Number"
+        >
+        <button type="submit" [disabled]="!searchForm.valid">
+          <span *ngIf="!isLoading">Search</span>
+          <span *ngIf="isLoading">Searching...</span>
+        </button>
+      </div>
+    </form>
+
+    <div *ngIf="errorMessage" class="error-message">
+      {{ errorMessage }}
+    </div>
+
+    <div *ngIf="accountDetails" class="account-details">
+      <h3>Account Details</h3>
+      <div class="detail-row">
+        <span class="detail-label">Account Number:</span>
+        <span>{{ accountDetails.accountNumber }}</span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Username:</span>
+        <span>{{ accountDetails.username }}</span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Name:</span>
+        <span>{{ accountDetails.name }}</span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Email:</span>
+        <span>{{ accountDetails.email }}</span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Phone:</span>
+        <span>{{ accountDetails.phone }}</span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Status:</span>
+        <span [class]="getStatusClass(accountDetails.status)">
+          {{ accountDetails.status | titlecase }}
+        </span>
+      </div>
+    </div>
+  </div>
+</div>

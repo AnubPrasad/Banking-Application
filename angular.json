@@ -13,6 +13,10 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "allowedCommonJsDependencies": [
+        "jspdf",
+        "jspdf-autotable"
+      ],
             "outputPath": "dist/banking-system",
             "index": "src/index.html",
             "main": "src/main.ts",

@@ -1,0 +1,48 @@
+<div class="d-flex justify-content-center align-items-center vh-100 bg-light">
+  <div class="card shadow p-4" style="min-width: 400px;">
+    <h3 class="text-center mb-4">Create Customer Account</h3>
+
+    <form [formGroup]="accountForm" (ngSubmit)="onSubmit()" novalidate>
+      <!-- Name -->
+      <div class="mb-3">
+        <label for="name" class="form-label">Customer Name</label>
+        <input id="name" type="text" class="form-control" formControlName="name" />
+        <div class="text-danger" *ngIf="submitted && f['name'].errors?.['required']">Name is required</div>
+      </div>
+
+      <!-- Email -->
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input id="email" type="email" class="form-control" formControlName="email" />
+        <div class="text-danger" *ngIf="submitted && f['email'].errors?.['required']">Email is required</div>
+        <div class="text-danger" *ngIf="submitted && f['email'].errors?.['email']">Enter a valid email</div>
+      </div>
+
+      <!-- Phone -->
+      <div class="mb-3">
+        <label for="phone" class="form-label">Phone Number</label>
+        <input id="phone" type="text" class="form-control" formControlName="phone" />
+        <div class="text-danger" *ngIf="submitted && f['phone'].errors?.['required']">Phone number is required</div>
+        <div class="text-danger" *ngIf="submitted && f['phone'].errors?.['pattern']">Phone number must be exactly 10 digits</div>
+      </div>
+
+      <!-- Address -->
+      <div class="mb-3">
+        <label for="address" class="form-label">Address</label>
+        <textarea id="address" class="form-control" formControlName="address"></textarea>
+        <div class="text-danger" *ngIf="submitted && f['address'].errors?.['required']">Address is required</div>
+      </div>
+
+      <!-- Submit Button -->
+      <button type="submit" class="btn btn-success w-100">Create Account</button>
+    </form>
+
+    <!-- Status Message -->
+    <div *ngIf="statusMessage" class="alert mt-3" [ngClass]="{
+      'alert-success': accountForm.valid,
+      'alert-danger': !accountForm.valid
+    }">
+      {{ statusMessage }}
+    </div>
+  </div>
+</div>
