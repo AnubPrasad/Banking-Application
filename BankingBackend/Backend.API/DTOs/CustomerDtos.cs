@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using Backend.DAL.Models;
 
 namespace Backend.API.DTOs;
 
@@ -20,8 +21,9 @@ public class CustomerCreateDto
     [StringLength(100, MinimumLength = 6)]
     public string Password { get; set; } = null!;
 
-     [Required]
+    [Required]
     [RegularExpression("User|Admin", ErrorMessage = "Role must be either 'User' or 'Admin'")]
-    public string Role { get; set; }=null!; 
+    public string Role { get; set; } = null!; 
+    public ICollection<Account> Accounts { get; set; } = new List<Account>();
     
 }

@@ -28,8 +28,10 @@ public class AuthService
         var claims = new[]
         {
             new Claim(ClaimTypes.NameIdentifier, customer.CustomerID.ToString()),
+             new Claim(ClaimTypes.Name, customer.Name),
             new Claim(ClaimTypes.Email, customer.Email),
-            new Claim(ClaimTypes.Role, customer.Role)
+            new Claim(ClaimTypes.Role, customer.Role),
+             new Claim("Phone", customer.Phone)
         };
 
         var token = new JwtSecurityToken(
