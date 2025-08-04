@@ -1,0 +1,32 @@
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/REPOS/bin/Debug/net8.0/REPOS.deps.json
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/REPOS/bin/Debug/net8.0/REPOS.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/REPOS/bin/Debug/net8.0/REPOS.pdb
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/REPOS/bin/Debug/net8.0/DAL.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/REPOS/bin/Debug/net8.0/DAL.pdb
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/REPOS/obj/Debug/net8.0/REPOS.csproj.AssemblyReference.cache
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/REPOS/obj/Debug/net8.0/REPOS.GeneratedMSBuildEditorConfig.editorconfig
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/REPOS/obj/Debug/net8.0/REPOS.AssemblyInfoInputs.cache
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/REPOS/obj/Debug/net8.0/REPOS.AssemblyInfo.cs
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/REPOS/obj/Debug/net8.0/REPOS.csproj.CoreCompileInputs.cache
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/REPOS/obj/Debug/net8.0/REPOS.sourcelink.json
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/REPOS/obj/Debug/net8.0/REPOS.csproj.Up2Date
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/REPOS/obj/Debug/net8.0/REPOS.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/REPOS/obj/Debug/net8.0/refint/REPOS.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/REPOS/obj/Debug/net8.0/REPOS.pdb
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/REPOS/obj/Debug/net8.0/ref/REPOS.dll
+/Users/prasad/Downloads/BankingManagementSystem/REPOS/obj/Debug/net8.0/REPOS.csproj.AssemblyReference.cache
+/Users/prasad/Downloads/BankingManagementSystem/REPOS/obj/Debug/net8.0/REPOS.GeneratedMSBuildEditorConfig.editorconfig
+/Users/prasad/Downloads/BankingManagementSystem/REPOS/obj/Debug/net8.0/REPOS.AssemblyInfoInputs.cache
+/Users/prasad/Downloads/BankingManagementSystem/REPOS/obj/Debug/net8.0/REPOS.AssemblyInfo.cs
+/Users/prasad/Downloads/BankingManagementSystem/REPOS/obj/Debug/net8.0/REPOS.csproj.CoreCompileInputs.cache
+/Users/prasad/Downloads/BankingManagementSystem/REPOS/obj/Debug/net8.0/REPOS.sourcelink.json
+/Users/prasad/Downloads/BankingManagementSystem/REPOS/obj/Debug/net8.0/REPOS.dll
+/Users/prasad/Downloads/BankingManagementSystem/REPOS/obj/Debug/net8.0/refint/REPOS.dll
+/Users/prasad/Downloads/BankingManagementSystem/REPOS/obj/Debug/net8.0/REPOS.pdb
+/Users/prasad/Downloads/BankingManagementSystem/REPOS/bin/Debug/net8.0/REPOS.deps.json
+/Users/prasad/Downloads/BankingManagementSystem/REPOS/bin/Debug/net8.0/REPOS.dll
+/Users/prasad/Downloads/BankingManagementSystem/REPOS/bin/Debug/net8.0/REPOS.pdb
+/Users/prasad/Downloads/BankingManagementSystem/REPOS/bin/Debug/net8.0/DAL.dll
+/Users/prasad/Downloads/BankingManagementSystem/REPOS/bin/Debug/net8.0/DAL.pdb
+/Users/prasad/Downloads/BankingManagementSystem/REPOS/obj/Debug/net8.0/REPOS.csproj.Up2Date
+/Users/prasad/Downloads/BankingManagementSystem/REPOS/obj/Debug/net8.0/ref/REPOS.dll

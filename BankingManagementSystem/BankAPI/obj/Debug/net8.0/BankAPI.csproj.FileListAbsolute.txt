@@ -1,0 +1,168 @@
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/appsettings.Development.json
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/appsettings.json
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/BankAPI.staticwebassets.endpoints.json
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/BankAPI.exe
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/BankAPI.deps.json
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/BankAPI.runtimeconfig.json
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/BankAPI.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/BankAPI.pdb
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Azure.Core.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Azure.Identity.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Microsoft.Data.SqlClient.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Microsoft.Extensions.Caching.Memory.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Microsoft.Extensions.Logging.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Microsoft.Identity.Client.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Microsoft.OpenApi.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Microsoft.SqlServer.Server.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Microsoft.Win32.SystemEvents.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/System.ClientModel.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/System.Configuration.ConfigurationManager.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/System.Drawing.Common.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/System.Memory.Data.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/System.Runtime.Caching.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/System.Security.Permissions.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/System.Windows.Extensions.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/DAL.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/REPOS.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/DAL.pdb
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/REPOS.pdb
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/obj/Debug/net8.0/BankAPI.csproj.AssemblyReference.cache
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/obj/Debug/net8.0/rpswa.dswa.cache.json
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/obj/Debug/net8.0/BankAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/obj/Debug/net8.0/BankAPI.AssemblyInfoInputs.cache
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/obj/Debug/net8.0/BankAPI.AssemblyInfo.cs
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/obj/Debug/net8.0/BankAPI.csproj.CoreCompileInputs.cache
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/obj/Debug/net8.0/BankAPI.MvcApplicationPartsAssemblyInfo.cs
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/obj/Debug/net8.0/BankAPI.MvcApplicationPartsAssemblyInfo.cache
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/obj/Debug/net8.0/BankAPI.sourcelink.json
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/obj/Debug/net8.0/rjimswa.dswa.cache.json
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/obj/Debug/net8.0/rjsmrazor.dswa.cache.json
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/obj/Debug/net8.0/rjsmcshtml.dswa.cache.json
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/obj/Debug/net8.0/scopedcss/bundle/BankAPI.styles.css
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/obj/Debug/net8.0/staticwebassets.build.json
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/obj/Debug/net8.0/staticwebassets.build.json.cache
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/obj/Debug/net8.0/staticwebassets.development.json
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/obj/Debug/net8.0/staticwebassets.build.endpoints.json
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/obj/Debug/net8.0/BankAPI.csproj.Up2Date
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/obj/Debug/net8.0/BankAPI.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/obj/Debug/net8.0/refint/BankAPI.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/obj/Debug/net8.0/BankAPI.pdb
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/obj/Debug/net8.0/BankAPI.genruntimeconfig.cache
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/obj/Debug/net8.0/ref/BankAPI.dll
+C:/IBM learning syllabus/SampleProject/Project/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/obj/Debug/net8.0/BankAPI.csproj.AssemblyReference.cache
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/obj/Debug/net8.0/BankAPI.GeneratedMSBuildEditorConfig.editorconfig
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/obj/Debug/net8.0/BankAPI.AssemblyInfoInputs.cache
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/obj/Debug/net8.0/BankAPI.AssemblyInfo.cs
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/obj/Debug/net8.0/BankAPI.csproj.CoreCompileInputs.cache
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/obj/Debug/net8.0/BankAPI.MvcApplicationPartsAssemblyInfo.cs
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/obj/Debug/net8.0/BankAPI.MvcApplicationPartsAssemblyInfo.cache
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/obj/Debug/net8.0/BankAPI.sourcelink.json
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/obj/Debug/net8.0/BankAPI.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/obj/Debug/net8.0/refint/BankAPI.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/obj/Debug/net8.0/BankAPI.pdb
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/appsettings.Development.json
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/appsettings.json
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/BankAPI
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/BankAPI.deps.json
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/BankAPI.runtimeconfig.json
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/BankAPI.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/BankAPI.pdb
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Azure.Core.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Azure.Identity.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Microsoft.Data.SqlClient.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Microsoft.Extensions.Logging.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Microsoft.Identity.Client.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Microsoft.OpenApi.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Microsoft.SqlServer.Server.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Microsoft.Win32.SystemEvents.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/System.ClientModel.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/System.Configuration.ConfigurationManager.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/System.Drawing.Common.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/System.Memory.Data.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/System.Runtime.Caching.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/System.Security.Permissions.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/System.Windows.Extensions.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/DAL.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/REPOS.dll
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/DAL.pdb
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/bin/Debug/net8.0/REPOS.pdb
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/obj/Debug/net8.0/staticwebassets.build.json
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/obj/Debug/net8.0/staticwebassets.development.json
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/obj/Debug/net8.0/staticwebassets/msbuild.BankAPI.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/obj/Debug/net8.0/staticwebassets/msbuild.build.BankAPI.props
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.BankAPI.props
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.BankAPI.props
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/obj/Debug/net8.0/staticwebassets.pack.json
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/obj/Debug/net8.0/scopedcss/bundle/BankAPI.styles.css
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/obj/Debug/net8.0/BankAPI.csproj.Up2Date
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/obj/Debug/net8.0/BankAPI.genruntimeconfig.cache
+/Users/prasad/Downloads/BankingManagementSystem/BankAPI/obj/Debug/net8.0/ref/BankAPI.dll
