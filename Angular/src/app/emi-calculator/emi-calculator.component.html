@@ -1,0 +1,46 @@
+<div class="emi-container">
+  <div class="header">
+    <h2>EMI Calculator</h2>
+  </div>
+
+  <div class="input-section">
+    <label>Amount:
+      <select [(ngModel)]="amount">
+        <option *ngFor="let amt of amounts" [value]="amt">{{ amt }}</option>
+      </select>
+      INR
+    </label>
+
+    <label>Duration:
+      <select [(ngModel)]="duration">
+        <option *ngFor="let dur of durations" [value]="dur">{{ dur }}</option>
+      </select>
+      Months
+    </label>
+
+    <label>Interest Rate:
+      <input type="text" [(ngModel)]="interestRate" style="width: 50px;" />%
+    </label>
+
+    <button class="submit-btn" (click)="calculateEMI()">Submit</button>
+  </div>
+
+  <table *ngIf="emiData.length > 0" class="emi-table">
+    <thead>
+      <tr>
+        <th>Month</th>
+        <th>Loan Amount</th>
+        <th>Interest</th>
+        <th>EMI Payable</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let row of emiData; let i = index" [class.alt-row]="i % 2 === 0">
+        <td>{{ i + 1 }}</td>
+        <td>{{ row.loanAmount }}</td>
+        <td>{{ row.interest }}</td>
+        <td>{{ row.total }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

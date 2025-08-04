@@ -1,0 +1,63 @@
+<div class="page-container">
+  <h1>Withdraw Money</h1>
+  
+  <div class="withdraw-container">
+    <form [formGroup]="withdrawForm" (ngSubmit)="onSubmit()">
+      <!-- Account Number Fields -->
+      <div class="form-group">
+        <label>Account Number</label>
+        <input type="text" formControlName="accountNumber" [class.invalid]="withdrawForm.hasError('mismatch')">
+        <div *ngIf="withdrawForm.get('accountNumber')?.hasError('required') && withdrawForm.get('accountNumber')?.touched" 
+             class="error-message">
+          Account number is required
+        </div>
+        <div *ngIf="withdrawForm.get('accountNumber')?.hasError('pattern')" class="error-message">
+          Account number must be numeric
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Confirm Account Number</label>
+        <input type="text" formControlName="confirmAccountNumber" [class.invalid]="withdrawForm.hasError('mismatch')">
+        <div *ngIf="withdrawForm.hasError('mismatch')" class="error-message">
+          Account numbers don't match
+        </div>
+      </div>
+
+      <button type="button" (click)="verifyAccount()" 
+              [disabled]="!withdrawForm.get('accountNumber')?.valid || 
+                         !withdrawForm.get('confirmAccountNumber')?.valid ||
+                         withdrawForm.hasError('mismatch')">
+        <span *ngIf="!isLoading">Verify Account</span>
+        <span *ngIf="isLoading">Verifying...</span>
+      </button>
+
+      <!-- Account Verification Info -->
+      <div *ngIf="accountVerified" class="account-info">
+        <h3>Account Verified</h3>
+        <p><strong>Account Holder:</strong> {{ accountHolderName }}</p>
+        <p><strong>Current Balance:</strong> {{ currentBalance | currency }}</p>
+      </div>
+
+      <!-- Amount Field -->
+      <div class="form-group" *ngIf="accountVerified">
+        <label>Withdrawal Amount</label>
+        <input type="number" step="0.01" formControlName="amount">
+        <div *ngIf="withdrawForm.get('amount')?.hasError('required') && withdrawForm.get('amount')?.touched" 
+             class="error-message">
+          Amount is required
+        </div>
+        <div *ngIf="withdrawForm.get('amount')?.hasError('min')" class="error-message">
+          Minimum withdrawal is $0.01
+        </div>
+      </div>
+
+      <!-- Submit Button -->
+      <button type="submit" *ngIf="accountVerified" 
+              [disabled]="!withdrawForm.valid || isLoading" class="submit-button">
+        <span *ngIf="!isLoading">Submit Withdrawal</span>
+        <span *ngIf="isLoading">Processing...</span>
+      </button>
+    </form>
+  </div>
+</div>
