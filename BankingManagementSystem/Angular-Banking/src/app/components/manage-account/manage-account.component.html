@@ -1,0 +1,57 @@
+<div class="page-container">
+  <h1>Manage Account</h1>
+  
+  <div class="tab-container">
+    <div class="tab-buttons">
+      <button [class.active]="activeTab === 'create'" (click)="setActiveTab('create')">Create Account</button>
+      <button [class.active]="activeTab === 'delete'" (click)="setActiveTab('delete')">Delete Account</button>
+      <button [class.active]="activeTab === 'close'" (click)="setActiveTab('close')">Close Account</button>
+    </div>
+
+    <div class="tab-content">
+      <!-- Create Account Tab -->
+      <div *ngIf="activeTab === 'create'" class="form-container">
+        <h3>Create New Account</h3>
+        <form [formGroup]="createForm" (ngSubmit)="onCreateSubmit()">
+          <div class="form-group">
+            <label>Full Name</label>
+            <input type="text" formControlName="name" required>
+          </div>
+          <div class="form-group">
+            <label>Email</label>
+            <input type="email" formControlName="email" required>
+          </div>
+          <div class="form-group">
+            <label>Phone</label>
+            <input type="tel" formControlName="phone" required>
+          </div>
+          <button type="submit" [disabled]="!createForm.valid">Submit</button>
+        </form>
+      </div>
+
+      <!-- Delete Account Tab -->
+      <div *ngIf="activeTab === 'delete'" class="form-container">
+        <h3>Delete Account</h3>
+        <form [formGroup]="deleteForm" (ngSubmit)="onDeleteSubmit()">
+          <div class="form-group">
+            <label>Account Number</label>
+            <input type="text" formControlName="accountNumber" required>
+          </div>
+          <button type="submit" [disabled]="!deleteForm.valid">Delete Account</button>
+        </form>
+      </div>
+
+      <!-- Close Account Tab -->
+      <div *ngIf="activeTab === 'close'" class="form-container">
+        <h3>Close Account</h3>
+        <form [formGroup]="closeForm" (ngSubmit)="onCloseSubmit()">
+          <div class="form-group">
+            <label>Account Number</label>
+            <input type="text" formControlName="accountNumber" required>
+          </div>
+          <button type="submit" [disabled]="!closeForm.valid">Close Account</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

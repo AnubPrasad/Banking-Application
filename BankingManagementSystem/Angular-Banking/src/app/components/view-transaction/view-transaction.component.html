@@ -1,0 +1,52 @@
+<div class="page-container">
+  <h1>View Transactions</h1>
+  
+  <div class="search-container">
+    <form [formGroup]="searchForm" (ngSubmit)="onSearch()">
+      <div class="search-bar">
+        <input 
+          type="text" 
+          formControlName="accountNumber" 
+          placeholder="Enter Account Number"
+        >
+        <button type="submit" [disabled]="!searchForm.valid">
+          <span *ngIf="!isLoading">Search</span>
+          <span *ngIf="isLoading">Searching...</span>
+        </button>
+      </div>
+    </form>
+
+    <div *ngIf="errorMessage" class="error-message">
+      {{ errorMessage }}
+    </div>
+
+    <div *ngIf="transactions.length > 0" class="transactions-container">
+       <div class="header-row">
+    <h3>Transaction History for Account: {{ accountNumber }}</h3>
+    <button (click)="downloadAsPDF()" class="download-button">
+      Download as PDF
+    </button>
+  </div>
+      
+      <div class="transaction-table">
+        <div class="table-header">
+          <div class="header-cell">Date</div>
+          <div class="header-cell">Type</div>
+          <div class="header-cell">Description</div>
+          <div class="header-cell amount">Amount</div>
+        </div>
+
+        <div class="table-row" *ngFor="let tx of transactions">
+          <div class="table-cell">{{ formatDate(tx.date) }}</div>
+          <div class="table-cell">
+            <span [class]="getTypeClass(tx.type)">{{ tx.type }}</span>
+          </div>
+          <div class="table-cell description">{{ tx.description }}</div>
+          <div class="table-cell amount" [class.negative]="tx.amount < 0">
+            {{ tx.amount >= 0 ? '+' : '' }}{{ tx.amount | currency }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

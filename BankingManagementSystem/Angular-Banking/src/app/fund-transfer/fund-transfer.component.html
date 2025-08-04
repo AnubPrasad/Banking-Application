@@ -1,0 +1,40 @@
+<div class="d-flex justify-content-center align-items-center vh-100">
+  <div class="card shadow p-4" style="min-width: 400px;">
+    <h3 class="text-center mb-4">Fund Transfer</h3>
+
+    <form [formGroup]="transferForm" (ngSubmit)="onSubmit()" novalidate>
+      <!-- From Account -->
+      <div class="mb-3">
+        <label for="fromAccount" class="form-label">From Account</label>
+        <input type="text" id="fromAccount" class="form-control" formControlName="fromAccount" />
+        <div class="text-danger" *ngIf="submitted && f['fromAccount'].errors?.['required']">From Account is required</div>
+        <div class="text-danger" *ngIf="submitted && f['fromAccount'].errors?.['pattern']">Enter a valid account number</div>
+      </div>
+
+      <!-- To Account -->
+      <div class="mb-3">
+        <label for="toAccount" class="form-label">To Account</label>
+        <input type="text" id="toAccount" class="form-control" formControlName="toAccount" />
+        <div class="text-danger" *ngIf="submitted && f['toAccount'].errors?.['required']">To Account is required</div>
+        <div class="text-danger" *ngIf="submitted && f['toAccount'].errors?.['pattern']">Enter a valid account number</div>
+      </div>
+
+      <!-- Amount -->
+      <div class="mb-3">
+        <label for="amount" class="form-label">Amount</label>
+        <input type="number" id="amount" class="form-control" formControlName="amount" />
+        <div class="text-danger" *ngIf="submitted && f['amount'].errors?.['required']">Amount is required</div>
+        <div class="text-danger" *ngIf="submitted && f['amount'].errors?.['min']">Minimum transfer is 1</div>
+      </div>
+
+      <button type="submit" class="btn btn-primary w-100">Transfer</button>
+    </form>
+
+    <div *ngIf="responseMessage" class="alert mt-3" [ngClass]="{
+      'alert-success': responseMessage.startsWith('✅'),
+      'alert-danger': responseMessage.startsWith('❌')
+    }">
+      {{ responseMessage }}
+    </div>
+  </div>
+</div>

@@ -1,0 +1,75 @@
+<div class="container">
+  <h2>Pending Requests</h2>
+
+  <div class="button-group mb-3">
+    <button (click)="showSaving()">Saving Account</button>
+    <button (click)="showLoan()">Loan Account</button>
+  </div>
+<div *ngIf="showLoanRequests">
+  <h3>Pending Loan Requests</h3>
+
+  <table *ngIf="loanRequests.length > 0">
+    <thead>
+      <tr>
+        <th>Customer ID</th>
+        <th>Amount</th>
+        <th>Duration (months)</th>
+        <th>Interest Rate</th>
+        <th>Status</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let request of getPaginatedLoans(); let i = index">
+        <td>{{ request.customerID }}</td>
+        <td>{{ request.amount }}</td>
+        <td>{{ request.durationInMonths }}</td>
+        <td>{{ request.interestRate }}</td>
+        <td>{{ request.status }}</td>
+        <td>
+          <button (click)="handleApprove(i)" [disabled]="request.status !== 'Pending'">Approve</button>
+          <button (click)="handleReject(i)" [disabled]="request.status !== 'Pending'">Reject</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="pagination">
+    <button (click)="prevLoanPage()" [disabled]="loanPage === 1">Previous</button>
+    <span>Page {{ loanPage }}</span>
+    <button (click)="nextLoanPage()" [disabled]="loanPage * pageSize >= loanRequests.length">Next</button>
+  </div>
+</div>
+
+  <!-- Saving Requests -->
+  <div *ngIf="showSavingRequests">
+    <h3>Pending Saving Account Requests</h3>
+
+    <table *ngIf="savingRequests.length > 0">
+      <thead>
+        <tr>
+          <th>Customer Name</th>
+          <th>Initial Deposit</th>
+          <th>From Date</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let request of getPaginatedSavings()">
+          <td>{{ request.customerName }}</td>
+          <td>{{ request.initialDeposit }}</td>
+          <td>{{ request.fromDate }}</td>
+          <td>{{ request.status }}</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p *ngIf="savingRequests.length === 0">No pending saving account requests yet.</p>
+
+    <div class="pagination">
+      <button (click)="prevSavingPage()" [disabled]="savingPage === 1">Previous</button>
+      <span>Page {{ savingPage }}</span>
+      <button (click)="nextSavingPage()" [disabled]="savingPage * pageSize >= savingRequests.length">Next</button>
+    </div>
+  </div>
+</div>
